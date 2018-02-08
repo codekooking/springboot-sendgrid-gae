@@ -43,10 +43,3 @@ Or by using **glcoud** command as below
 $ gcloud app browse -s GAE_SERVICE_NAME
 ```
 
-#### <i class="icon-pencil"></i> Trouble shooting
-You may got this error message:
-> **Error:**
-> "Caused by: java.lang.RuntimeException: The Google Cloud SQL API is not enabled for project [GAE_SERVICE_NAME]"
-
-To resolve it, You must enable **"Google Cloud SQL API"** by go to **Google API Manager** to enable it or access this url https://console.cloud.google.com/apis/api/sqladmin/overview?project=PROJECT_NAME
-
